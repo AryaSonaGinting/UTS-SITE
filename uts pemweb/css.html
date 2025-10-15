@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pengenalan CSS — Reggae Vibes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-gradient-to-br from-green-600 via-yellow-400 to-red-600 text-gray-900 font-['Roboto'] min-h-screen flex flex-col justify-between">
+
+  <!-- HEADER -->
+  <header class="p-6 text-center border-b-4 border-yellow-300 bg-gradient-to-r from-red-600 via-yellow-400 to-green-600 text-white shadow-md">
+    <h1 class="text-4xl font-bold font-['Righteous'] tracking-widest mb-3">🎨 Pengenalan CSS 🎨</h1>
+    <nav class="flex flex-wrap justify-center gap-6 text-lg">
+      <a href="index.html" class="hover:text-yellow-200 transition">Data Diri</a>
+      <a href="html.html" class="hover:text-yellow-200 transition">HTML</a>
+      <a href="javascript.html" class="hover:text-yellow-200 transition">JavaScript</a>
+      <a href="tailwind.html" class="hover:text-yellow-200 transition">Tailwind</a>
+      <a href="kesanpesan.html" class="hover:text-yellow-200 transition">Kesan & Pesan</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="p-8 max-w-4xl mx-auto">
+    <!-- Intro -->
+    <section class="bg-white bg-opacity-90 p-6 rounded-xl shadow-lg border-4 border-yellow-400 mb-8">
+      <h2 class="text-3xl font-['Righteous'] text-center text-green-800 mb-4">🔥 Apa itu CSS? 🔥</h2>
+      <p class="text-lg text-justify leading-relaxed">
+        <span class="text-red-700 font-semibold">CSS (Cascading Style Sheets)</span> digunakan untuk mempercantik tampilan website.
+        Dengan CSS, kita dapat mengatur warna, ukuran, tata letak, serta menambahkan efek animasi
+        pada elemen HTML agar lebih menarik dan selaras.
+      </p>
+    </section>
+
+    <!-- Contoh CSS -->
+    <section class="card p-6 rounded-xl border-4 border-green-500 bg-white bg-opacity-90 shadow-xl mb-8">
+      <h3 class="text-2xl font-['Righteous'] text-red-700 mb-3">🌿 Contoh CSS Sederhana 🌿</h3>
+      <pre class="bg-black text-green-400 p-4 rounded-lg overflow-auto shadow-inner">
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+      </pre>
+    </section>
+
+    <!-- Jenis CSS -->
+    <section class="card p-6 rounded-xl border-4 border-yellow-400 bg-white bg-opacity-90 shadow-xl">
+      <h3 class="text-2xl font-['Righteous'] text-green-700 mb-3">🎶 Jenis Penulisan CSS 🎶</h3>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+        <li><b>Inline CSS</b> — ditulis langsung di dalam tag HTML.</li>
+        <li><b>Internal CSS</b> — ditulis di bagian <code>&lt;style&gt;</code> dalam dokumen HTML.</li>
+        <li><b>External CSS</b> — ditulis di file terpisah (seperti <code>style.css</code>).</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center p-4 text-white bg-gradient-to-r from-green-700 via-yellow-500 to-red-700 border-t-4 border-yellow-300 mt-12">
+    <p class="font-['Righteous'] tracking-widest">© 2025 — Belajar CSS dengan Reggae Spirit 🎶</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
